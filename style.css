@@ -2,13 +2,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(215, 255, 242, 0.979);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header {
     padding: 2rem;
-    background-color: bisque;
+    background-color: rgb(253, 207, 201);
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    margin: 0px;
+    padding: 0rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 5px 5px 5px 200px;
+    display: inline-block;
+    ;
 }
 
 #titulo {
@@ -21,8 +59,9 @@ header {
 #botao {
     padding: 10px;
     margin: 20px;
-    background-color: rgb(122, 5, 231);
-    color: white;
+    background-color: rgb(163, 236, 233);
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
     border: none;
     border-radius: 20px;
     width: 100px;
@@ -31,7 +70,7 @@ header {
 }
 
 #botao:hover {
-    background-color: rgb(146, 37, 248);
+    background-color: rgb(253, 207, 201);
 }
 
 #botao:active {
